@@ -120,16 +120,14 @@ var work = {
 
 
  work.display = function() {
- 	$('#work').append(HTMLworkStart);
+ 	$('#workExperience').append(HTMLworkStart);
  	for (var i = 0; i < work.jobs.length; i++) {
  		$('.work-entry').append(HTMLworkEmployer.replace('%data%', work.jobs[i].employer));
  		$('.work-entry').append(HTMLworkTitle.replace('%data%', work.jobs[i].title));
  		$('.work-entry').append(HTMLworkDates.replace('%data%', work.jobs[i].dates));
  		$('.work-entry').append(HTMLworkLocation.replace('%data%', work.jobs[i].location));
  		$('.work-entry').append(HTMLworkDescription.replace('%data%', work.jobs[i].description));
- 	    }
-    
-    }   
+    }
  
  };
  work.display();
