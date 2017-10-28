@@ -61,27 +61,25 @@ var work = {
         "title": "Senior Specialist Network Support",
         "dates": "March 2013 - Future",
         "location": "Conyers, GA",        
-        "description": "Network Surveillance and power monitoring.", 
-            "Providing Tier 2 support for technicians.", 
-            "Establishing maintenance and repair bridges."
-       },
+        "description": "Network Surveillance and power monitoring"
+         
+       }, 
 	   {
 	   	 "employer": "Vasoli Electric",
 	   	 "title": "Contractor - AT&T Business Analysis Management",
 	   	 "dates": "February 2007 - March 2013",
 	   	 "location": "Conyers, GA",	   	
-	     "description": "Network Surveillance and power monitoring.", 
-	         "Providing Tier 2 support for technicians.", 
-	         "Establishing maintenance and repair bridges."
+	     "description": "Network Surveillance and power monitoring"
+	         
 	    }, 
 	    {
 	      "employer": "The Answer Group (TAG)",
 	      "title": "Technical Support Agent",
 	      "dates": "February 2006 - February 2007",
 	      "location": "Lauderhill, FL",	      
-	      "description": "Telephone technical support for internet customers.", 
-              "Upsale products and services.",
-	          "Answer basic account and billing questions."   
+	      "description": "Telephone technical support for internet customers" 
+              
+	            
 	 }]
 
 };	    
