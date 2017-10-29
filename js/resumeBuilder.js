@@ -61,7 +61,7 @@ var work = {
         "title": "Senior Specialist Network Support",
         "dates": "March 2013 - Future",
         "location": "Conyers, GA",        
-        "description": "Network Surveillance and power monitoring"
+        "description": "Network Surveillance, Power monitoring, Tier II support and maintenance/repair bridge coordination"
          
        }, 
 	   {
@@ -69,7 +69,7 @@ var work = {
 	   	 "title": "Contractor - AT&T Business Analysis Management",
 	   	 "dates": "February 2007 - March 2013",
 	   	 "location": "Conyers, GA",	   	
-	     "description": "Network Surveillance and power monitoring"
+	     "description": "Network Surveillance, Power monitoring, Tier II support and maintenance/repair bridge coordination"
 	         
 	    }, 
 	    {
@@ -77,7 +77,7 @@ var work = {
 	      "title": "Technical Support Agent",
 	      "dates": "February 2006 - February 2007",
 	      "location": "Lauderhill, FL",	      
-	      "description": "Telephone technical support for internet customers" 
+	      "description": "Networkwork Setup and Telephone technical support for internet customers" 
               
 	            
 	 }]
@@ -107,9 +107,9 @@ var work = {
 
     var contactsArray = [email, mobile, github, twitter, location_home];
 
-    for (var i = 0; i < contactsArray.length; i++) {
-    	$("#topContacts").append(contactsArray[i]);
-    	$("#footerContacts").append(contactsArray[i]);
+    for (var n = 0; n < contactsArray.length; n++) {
+    	$("#topContacts").append(contactsArray[n]);
+    	$("#footerContacts").append(contactsArray[n]);
 
     }
 
@@ -155,9 +155,9 @@ var work = {
     }
 
     $(".education-entry").append(HTMLonlineClasses);
-    for (var i = 0; i < education.onlineCourses.length; i++) {
+    for (var k = 0; k < education.onlineCourses.length; k++) {
 
-    	$(".education-entry").append(HTMLonlineTitle.replace("%data%", education.onlineCourses[i].title) + HTMLonlineSchool.replace("%data%", education.onlineCourses[i].school), HTMLonlineDates.replace("%data%", education.onlineCourses[i].dates), HTMLonlineURL.replace("%data%", education.onlineCourses[i].url).replace("#", education.onlineCourses[i].url));
+    	$(".education-entry").append(HTMLonlineTitle.replace("%data%", education.onlineCourses[k].title) + HTMLonlineSchool.replace("%data%", education.onlineCourses[k].school), HTMLonlineDates.replace("%data%", education.onlineCourses[k].dates), HTMLonlineURL.replace("%data%", education.onlineCourses[k].url).replace("#", education.onlineCourses[k].url));
     }
 };
 education.display();
